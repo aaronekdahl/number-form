@@ -17,16 +17,16 @@ function onClick() {
 }
 
 //create sum function
-function mySum(total) {
-	document.getElementById('numSum').value=total;
-	a = Number(document.getElementById('numSum').value);
-}
-
-// //create average function
-// function myAvg() {
-
-
+// function mySum(total) {
+// 	document.getElementById('numSum').value=total;
+// 	a = Number(document.getElementById('numSum').value);
 // }
+
+//create average function
+// function myAvg() {
+//}
+
+//create form reset function
 
 
 //save for later...
