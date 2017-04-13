@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css" src="style.css"></style>
+    <title>Number Form</title>
+  </head>
+
+  <body>
+    <h1>Number Form</h1>
+
+    <div>
+      <p>Enter numbers here:</p>
+      <input type='number' id='numValue'>
+      <button onclick="numVal(); onClick(); mySum(); myAvg()">Submit</button>
+      </form>
+    </div>
+
+    <table>
+     <!--delete number entered tr before final revision-->
+     <tr>
+        <td>Most Recent Value Entered:</td>
+        <td id="numEnt"></td>
+      </tr>
+      <tr>
+        <td>Count:</td>
+        <td id="numCount"></td>
+      </tr>
+      <tr>
+        <td>Sum:</td>
+        <td id="numSum"></td>
+      </tr>
+      <tr>
+         <td>Average:</td>
+        <td id="numAvg"></td>
+      </tr>
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
